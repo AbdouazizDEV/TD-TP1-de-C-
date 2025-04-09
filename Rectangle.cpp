@@ -21,7 +21,9 @@ void Rectangle::affichage() {
     cout << "Surface : " << surface() << endl;
 }
 
-double Rectangle::getLargeur() { return largeur; }
+double Rectangle::getLargeur() { 
+    return largeur; 
+}
 double Rectangle::getHauteur() { return hauteur; }
 
 void Rectangle::setLargeur(double l) { largeur = l; }
